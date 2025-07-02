@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Pacifico&display=swap" rel="stylesheet">
+
+<body style="background: url('assets/canva-pink-collage.png') no-repeat center center fixed; background-size: cover;">
+<h2 class="sub-message">HERE'S A LITTLE SURPRISE FOR YOU MY PRINCESS 🥹❤️</h2>
+
+  <div class="entry-screen" id="entryScreen">
+    <img src="assets/gif-clickme.gif" alt="Click Me" class="click-gif" />
+    <h1 class="floating-text" id="clickText">CLICK ME</h1>
+  </div>
+
+  <div class="main-content" id="mainContent" style="display:none;">
+    <h1 class="main-message" id="typedText"></h1>
+    <button class="next-button" onclick="goToNextPage()">🌸 Next Page 🌸</button>
+    <button class="next-button" onclick="goToGallery()">🎞 View Gallery</button>
+  </div>
+
+  <audio id="bgMusic" src="assets/music.mp3"></audio>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>

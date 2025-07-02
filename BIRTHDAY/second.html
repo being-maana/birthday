@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You, My Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="second-page" style="background: url('assets/herphoto.jpg') no-repeat center center fixed; background-size: cover;">
+
+
+  <audio id="bgMusic" src="assets/music.mp3" autoplay loop></audio>
+
+  <div class="photo-wall">
+    <!-- Add your own photos -->
+    <img src="assets/background1.jpg" class="bg-photo" />
+    <img src="assets/background2.jpg" class="bg-photo" />
+    <img src="assets/background3.jpg" class="bg-photo" />
+    <!-- Add more as needed -->
+  </div>
+
+  <div class="love-note">
+    <h1>My Love ❤️</h1>
+    <p>
+      Sample text: "From the moment we met, my world lit up. Your smile, your heart, and the way you love—makes me feel like the luckiest person. This birthday, I want to tell you that you're my everything. I will always be with you no matter what. Happy Birthday, jaan! 💖"
+    </p>
+  </div>
+   <div class="popup-buttons">
+  <button onclick="showPopup('Birthday Wishes 🎂')">Birthday Wishes</button>
+  <!-- Anniversary buttons -->
+ <button onclick="showPopup(`My love... Priye... Haha ik shyd tumhe ajeeb sound kare but happy 3 months anniversary ❤️😽
+
+Socha tumhe bata du ki Mai tumhe kitna pyaar krta hu... Priye yk Mai kitna grateful hu ki tum meri life m ho??? Yk Mai kitna khush hu ki tum meri life m ho??? Yk Mai kitna pyaar m hu tumse ki tum meri life m ho...
+
+Ayee kyu... Kyu Mai tumse itna pyaar krne laga hu?? Kyu Mai tumse itna iqraar karne laga hu?? Mai kabhi nhi chahta tha ki Mai kisike liye badlu... Kyu Mai apne Dil ko tumhare liye taiyar krne laga hu??
+
+Tumhe pata h priye... Tum meri sab kuch ho... You're my girl... You're my everything... I couldn't even resist myself from hugging you so hard ki tumhare saare dukh mai lelu and tumhari zindagi m sirf khushiyan hi khushiyan ho...
+
+Yk it's been 3 months aaj... Still I cannot think about us apart... Tho itna distance h hame alag rkhne ke liye but still ik it still cannot keep us apart...
+
+Priye, I just want you to keep in mind ki Maaney is always here for you... No matter what situation it is but I'm always with you... I'll always be the one to take care of you...
+
+Need a kissi? I'm here ❤️
+If you ever need to tell something you can't tell anyone just remember ki I'm here ❤️
+If you ever need anything sweetheart... Just remember ki I'm here❤️
+
+You'll always be my cutie pie princess❤️
+And I'll always be your baby girl.❤️
+I'll never leave you on...
+I'll never give up on you❤️
+I'll never do anything jisse tumhe sad feel ho...
+
+I just want to be the reason tumhare happy hone ka...
+I just want to be the reason tumhare pyaar ka...
+I just love you...😭❤️
+
+I'm thankful to you my love ki you've made me the one jise m boht pehle maar chuka tha...
+I'm thankful ki tumhari vjh se mujhe jeene m mazaa aata h...
+I'm thankful ki mujhe shyd tumse pyaar h❤️
+I'm thankful to you ki Mai sirf tumhare liye jeena chahta hu...
+
+Idk ki tumhare liye hum relationship m h ya nhi but mere liye hum relationship m h...
+
+Abhi bhi 18mins left h...
+Listen kri...
+You've been like a miracle in my life...
+Mai hasta hu, sochta hu tumhare baare m, blush krta hu tumse baat krte samay, Mai sota hu tumhe sochte hue, Mai jeeta hu sirf tumhari vjh se...
+
+Ydk tumne kitna change Kiya h mujhe.❤️
+Mai sirf tumhari smile se hi pagal ho jaata hu...
+Jab bhi tum I love you bolti ho idk kesa but I skip a beat, heavily breathe krne lagta hu... Khus ho jaata hu... Butterflies jesa lagta h stomach m❤️
+
+Idk how do I explain it to you but priye Mera din, meri life sab kuch tumhari existence se change hora h...
+3 mahine hi hue h aur I feel like I love you even more than before... Aur aage bhi krta rahunga...
+
+Priye😭
+I just love you...
+I love your voice, I love your eyes, I love your personality, I love talking to you, I love when I spend time with you... I love youuuuuu❤️😭
+
+I promise you my love,
+I'll always love you as I do now...
+I'll always be with you...
+I'll always be on your side no matter what...
+I'll never ever give up on you...
+I'll always love you priye... Always...
+
+Againnnn...
+HAPPY 3 MONTHS ANNIVERSARY MY LOVE❤️💋
+I LOVE YOU❤️
+
+Mujhe kabhi tumse ye sochke pyaar nhi hua ki tum mujhe mil jaogi...
+shyd hadd se zyada pyaar jab hua jab tumhe khone ka darr laga pehli baar...
+vo ehsaas, vo aasun, vo dard aaj bhi batate h tum mere liye kitna maiyne rakhti ho...`)">Anniversary 3</button>
+
+  <button onclick="showPopup('Anniversary 4 💖')">Anniversary 4</button>
+  <button onclick="showPopup('Anniversary 5 💖')">Anniversary 5</button>
+  <button onclick="showPopup('Anniversary 6 💖')">Anniversary 6</button>
+  <button onclick="showPopup('Anniversary 7 💖')">Anniversary 7</button>
+  <button onclick="showPopup('Anniversary 8 💖')">Anniversary 8</button>
+  <button onclick="showPopup('Anniversary 9 💖')">Anniversary 9</button>
+  <button onclick="showPopup('Anniversary 10 💖')">Anniversary 10</button>
+  <button onclick="showPopup('Anniversary 11 💖')">Anniversary 11</button>
+  <button onclick="showPopup('Anniversary 12 💖')">Anniversary 12</button>
+  <button onclick="showPopup('Anniversary 13 💖')">Anniversary 13</button>
+  <button onclick="showPopup('Anniversary 14 💖')">Anniversary 14</button>
+  <button onclick="showPopup('Anniversary 15 💖')">Anniversary 15</button>
+</div>
+
+<!-- Popup Overlay -->
+<div id="popupOverlay" class="popup-overlay" onclick="hidePopup()">
+  <div class="popup-box" onclick="event.stopPropagation();">
+    <p id="popupMessage">This is a popup</p>
+    <span class="close-button" onclick="hidePopup()">×</span>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
